@@ -1,13 +1,7 @@
 from typing import Union, List, Dict
 # from functools import lru_cache
 from src.insights.jobs import read
-import csv
 
-# @lru_cache
-# def read(path: str) -> List[Dict]:
-#     with open(path, encoding='utf8') as archive:
-#         data = csv.DictReader(archive, delimiter=',', quotechar='"')
-#         return list(data)
 
 def get_max_salary(path: str) -> int:
     raise NotImplementedError
